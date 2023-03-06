@@ -1,14 +1,14 @@
 [features]
 seeds = true
 skip-lint = false
-[programs.devnet]
-anchor_nft_staking = "GecnYmwfw5naFyJZnzZrqVvXXmEnmw7tK5p17NCGv57u"
+[programs.localnet]
+anchor_nft_staking = "BnbQDatiZBxcUxujTso24U3CURd6sTzbq1XRVCwghKXX"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Devnet"
+cluster = "devnet"
 wallet = "/Users/drou/.config/solana/id.json"
 
 [scripts]
